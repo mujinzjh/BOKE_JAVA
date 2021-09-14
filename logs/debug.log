@@ -326,3 +326,17 @@ The source of the existing CacheManager is: InputStreamConfigurationSource [stre
 2021-09-14 10:26:32,350 [http-nio-8080-exec-1] INFO  [org.apache.shiro.cache.ehcache.EhCacheManager] EhCacheManager.java:169 - Using existing EHCache named [shiro-activeSessionCache]
 2021-09-14 10:26:32,489 [http-nio-8080-exec-1] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:110 - HikariPool-1 - Starting...
 2021-09-14 10:26:32,620 [http-nio-8080-exec-1] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:123 - HikariPool-1 - Start completed.
+2021-09-14 10:49:07,027 [HikariPool-1 housekeeper] WARN  [com.zaxxer.hikari.pool.HikariPool] HikariPool.java:787 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12m4s404ms).
+2021-09-14 11:26:12,682 [HikariPool-1 housekeeper] WARN  [com.zaxxer.hikari.pool.HikariPool] HikariPool.java:787 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m35s186ms).
+2021-09-14 11:36:04,069 [HikariPool-1 housekeeper] WARN  [com.zaxxer.hikari.pool.HikariPool] HikariPool.java:787 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=51s279ms).
+2021-09-14 11:39:33,225 [SessionValidationThread-1] INFO  [o.a.s.session.mgt.AbstractValidatingSessionManager] AbstractValidatingSessionManager.java:275 - Validating all active sessions...
+2021-09-14 11:39:33,257 [SessionValidationThread-1] INFO  [o.a.s.session.mgt.AbstractValidatingSessionManager] AbstractValidatingSessionManager.java:308 - Finished session validation.  [1] sessions were stopped.
+2021-09-14 11:45:29,900 [HikariPool-1 housekeeper] WARN  [com.zaxxer.hikari.pool.HikariPool] HikariPool.java:787 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m55s723ms).
+2021-09-14 11:56:40,995 [HikariPool-1 housekeeper] WARN  [com.zaxxer.hikari.pool.HikariPool] HikariPool.java:787 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7m11s56ms).
+2021-09-14 12:02:54,531 [HikariPool-1 housekeeper] WARN  [com.zaxxer.hikari.pool.HikariPool] HikariPool.java:787 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m13s508ms).
+2021-09-14 13:23:22,637 [HikariPool-1 housekeeper] WARN  [com.zaxxer.hikari.pool.HikariPool] HikariPool.java:787 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h20m28s106ms).
+2021-09-14 13:57:06,095 [HikariPool-1 housekeeper] WARN  [com.zaxxer.hikari.pool.HikariPool] HikariPool.java:787 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m43s458ms).
+2021-09-14 14:10:42,214 [HikariPool-1 housekeeper] WARN  [com.zaxxer.hikari.pool.HikariPool] HikariPool.java:787 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m36s27ms).
+2021-09-14 14:17:00,350 [SpringContextShutdownHook] INFO  [o.s.scheduling.concurrent.ThreadPoolTaskExecutor] ExecutorConfigurationSupport.java:218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-09-14 14:17:00,356 [SpringContextShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:350 - HikariPool-1 - Shutdown initiated...
+2021-09-14 14:17:00,366 [SpringContextShutdownHook] INFO  [com.zaxxer.hikari.HikariDataSource] HikariDataSource.java:352 - HikariPool-1 - Shutdown completed.
