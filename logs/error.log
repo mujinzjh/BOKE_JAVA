@@ -114,3 +114,11 @@ The source of the existing CacheManager is: InputStreamConfigurationSource [stre
 	at net.sf.ehcache.CacheManager.<init>(CacheManager.java:339)
 	at org.apache.shiro.cache.ehcache.EhCacheManager.ensureCacheManager(EhCacheManager.java:212)
 	... 72 common frames omitted
+2021-09-15 12:23:26,527 [http-nio-8080-exec-1] ERROR [cn.tycoding.common.handler.GlobalExceptionHandler] GlobalExceptionHandler.java:31 - 内部错误, null
+2021-09-15 12:23:43,539 [http-nio-8080-exec-3] ERROR [cn.tycoding.common.handler.GlobalExceptionHandler] GlobalExceptionHandler.java:31 - 内部错误, null
+2021-09-15 12:25:58,970 [http-nio-8080-exec-5] ERROR [cn.tycoding.common.handler.GlobalExceptionHandler] GlobalExceptionHandler.java:31 - 内部错误, null
+2021-09-15 14:01:51,415 [http-nio-8080-exec-1] ERROR [cn.tycoding.common.handler.GlobalExceptionHandler] GlobalExceptionHandler.java:31 - 内部错误, null
+2021-09-15 14:02:51,821 [http-nio-8080-exec-3] ERROR [cn.tycoding.common.handler.GlobalExceptionHandler] GlobalExceptionHandler.java:31 - 内部错误, null
+2021-09-15 14:05:29,215 [http-nio-8080-exec-5] ERROR [cn.tycoding.common.handler.GlobalExceptionHandler] GlobalExceptionHandler.java:31 - 内部错误, null
+2021-09-15 14:07:41,825 [http-nio-8080-exec-7] ERROR [cn.tycoding.common.handler.GlobalExceptionHandler] GlobalExceptionHandler.java:31 - 内部错误, null
+2021-09-15 14:07:58,573 [http-nio-8080-exec-9] ERROR [cn.tycoding.common.handler.GlobalExceptionHandler] GlobalExceptionHandler.java:31 - 内部错误, null
