@@ -66,8 +66,13 @@ public class LoginController extends BaseController {
             Browser browser = userAgent.getBrowser();
             OperatingSystem operatingSystem = userAgent.getOperatingSystem();
             log.setDevice(browser.getName() + " -- " + operatingSystem.getName());
-            loginLogService.saveLog(log);
+
             SysUser userData = userService.findByName(username);
+
+            log.setUserType(userData.getAdminType());
+
+            loginLogService.saveLog(log);
+
 
             return new R<>(this.getUserInfo(userData));
         } catch (Exception e) {

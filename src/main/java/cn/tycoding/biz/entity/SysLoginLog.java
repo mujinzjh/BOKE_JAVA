@@ -37,6 +37,11 @@ public class SysLoginLog implements Serializable {
 
     private String device;
 
+    @TableField("user_type")
+    private Long userType;
+
     @TableField(exist = false)
     private String filedTime;
+
+
 }
